@@ -1,0 +1,615 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:16:1-112:12
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml:16:1-112:12
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\736d103fc6573c09840222204cc3dfee\AndroidManifest.xml:17:1-25:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:17:1-72:12
+MERGED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:2:1-14:12
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:2:1-75:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6121b7c41aa9ec39c4f3d5bb4ca2714\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\07aebcf6a8de96c7b981395ec9e0f1d8\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.0.0-nightly.aar\9125ea51226845c7921c06814ffa2442\AndroidManifest.xml:2:1-10:12
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.13.1.aar\32c21b6f1a99d7540869d0f47b21c00c\AndroidManifest.xml:2:1-8:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\677d8d42359c09a59053406786b2f16c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\62a5713ebb320bca87d00486b9e94a73\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\72618616418114497f4e4123745f0076\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\a28eaf199eb4938c45805e7a41c4726f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:17:1-31:12
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\64a7a257a5b25ac52ba048887702639d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ca01b11d67345f86c2b21fa47fea69db\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\f4302bf63ab0a6d6e2e8febe762e698d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\aa9117d88028e8ce367cbd72c924a21a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\0e79b9b5ccd1a5475c3b05e6094800b8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\84898049ff8fca77681716a9189e9b3d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\93a21c4b28c8eca448755e60d64a7ea4\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml:16:1-112:12
+	package
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:18:5-31
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:17:5-51
+	xmlns:android
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:16:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:21:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:11:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:22:5-74
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:12:5-74
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:22:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:23:5-66
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:35:5-66
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:23:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:25:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:25:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:26:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:20:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:26:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:27:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:17:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:28:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:13:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:29:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:18:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:30:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:39:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:30:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:31:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:24:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:15:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:32:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:32:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:33:5-78
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:23:5-78
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:33:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:34:5-75
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:40:5-75
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:34:22-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:35:5-65
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:25:5-65
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:35:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:37:5-60
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:37:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:38:5-70
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:38:19-67
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:40:5-71
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:24:5-71
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:40:22-68
+uses-feature#android.hardware.usb.host
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:42:5-44:36
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:53:5-55:36
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:43:9-49
+uses-feature#android.hardware.usb.accessory
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:45:5-47:35
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:56:5-58:35
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:56:5-58:35
+	android:required
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:47:9-32
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:46:9-54
+application
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:49:5-110:19
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\736d103fc6573c09840222204cc3dfee\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\736d103fc6573c09840222204cc3dfee\AndroidManifest.xml:22:5-23:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:26:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:26:5-70:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:11:5-12:19
+MERGED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:11:5-12:19
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:60:5-73:19
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:60:5-73:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6121b7c41aa9ec39c4f3d5bb4ca2714\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6121b7c41aa9ec39c4f3d5bb4ca2714\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.0.0-nightly.aar\9125ea51226845c7921c06814ffa2442\AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.0.0-nightly.aar\9125ea51226845c7921c06814ffa2442\AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.13.1.aar\32c21b6f1a99d7540869d0f47b21c00c\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.13.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.13.1.aar\32c21b6f1a99d7540869d0f47b21c00c\AndroidManifest.xml:5:5-6:19
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\677d8d42359c09a59053406786b2f16c\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\677d8d42359c09a59053406786b2f16c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\62a5713ebb320bca87d00486b9e94a73\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\62a5713ebb320bca87d00486b9e94a73\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\72618616418114497f4e4123745f0076\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\72618616418114497f4e4123745f0076\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\a28eaf199eb4938c45805e7a41c4726f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\a28eaf199eb4938c45805e7a41c4726f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ca01b11d67345f86c2b21fa47fea69db\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ca01b11d67345f86c2b21fa47fea69db\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\f4302bf63ab0a6d6e2e8febe762e698d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\f4302bf63ab0a6d6e2e8febe762e698d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\aa9117d88028e8ce367cbd72c924a21a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\aa9117d88028e8ce367cbd72c924a21a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\0e79b9b5ccd1a5475c3b05e6094800b8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\0e79b9b5ccd1a5475c3b05e6094800b8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\84898049ff8fca77681716a9189e9b3d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\84898049ff8fca77681716a9189e9b3d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\93a21c4b28c8eca448755e60d64a7ea4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\93a21c4b28c8eca448755e60d64a7ea4\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:55:9-35
+	android:label
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:53:9-33
+		REJECTED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:11:18-50
+	android:roundIcon
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:54:9-54
+	android:icon
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:52:9-43
+	android:allowBackup
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:51:9-35
+	android:theme
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:56:9-40
+	tools:replace
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:57:9-38
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:50:9-37
+uses-library#com.android.future.usb.accessory
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:60:9-73
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:60:23-70
+meta-data#com.dji.sdk.API_KEY
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:62:9-64:56
+	android:value
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:64:13-53
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:63:13-47
+activity#dji.sdk.sdkmanager.DJIAoaControllerActivity
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:66:9-76:20
+	android:theme
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:68:13-61
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:67:13-71
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:69:13-71:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:70:17-93
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:70:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:73:13-75:60
+	android:resource
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:75:17-57
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:74:17-82
+service#dji.sdk.sdkmanager.DJIGlobalService
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:78:9-71
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:61:9-63:43
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:61:9-63:43
+	android:stopWithTask
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:63:13-40
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:78:18-68
+activity#com.dji.Detector.ConnectionActivity
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:81:9-90:20
+	android:screenOrientation
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:84:13-56
+	android:configChanges
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:82:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:85:13-89:29
+action#android.intent.action.MAIN
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:86:17-69
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:86:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:88:17-77
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:88:27-74
+activity#com.dji.Detector.DetectorActivity
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:91:9-96:20
+	android:screenOrientation
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:94:13-56
+	android:label
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:93:13-60
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:92:13-45
+activity#com.dji.Detector.DetectActivity
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:97:9-102:20
+	android:screenOrientation
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:100:13-56
+	android:label
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:99:13-60
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:98:13-43
+activity#com.dji.Detector.MediaActivity
+ADDED from C:\TempDrone\Detector\AndroidManifest.xml:103:9-108:20
+	android:screenOrientation
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:106:13-56
+	android:label
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:105:13-57
+	android:name
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml:104:13-42
+uses-sdk
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\736d103fc6573c09840222204cc3dfee\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-support-fragment:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-support-fragment-1.6.1.aar\736d103fc6573c09840222204cc3dfee\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:21:5-23:62
+MERGED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-uxsdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-uxsdk-4.7.aar\e7fcaa9272a5aff75b8fbedfdb376442\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6121b7c41aa9ec39c4f3d5bb4ca2714\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6121b7c41aa9ec39c4f3d5bb4ca2714\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\07aebcf6a8de96c7b981395ec9e0f1d8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\07aebcf6a8de96c7b981395ec9e0f1d8\AndroidManifest.xml:20:5-43
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.0.0-nightly.aar\9125ea51226845c7921c06814ffa2442\AndroidManifest.xml:5:5-6:41
+MERGED from [org.tensorflow:tensorflow-lite:0.0.0-nightly] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-0.0.0-nightly.aar\9125ea51226845c7921c06814ffa2442\AndroidManifest.xml:5:5-6:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\677d8d42359c09a59053406786b2f16c\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.6.1.aar\677d8d42359c09a59053406786b2f16c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\62a5713ebb320bca87d00486b9e94a73\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.8.0.aar\62a5713ebb320bca87d00486b9e94a73\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\72618616418114497f4e4123745f0076\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.8.0.aar\72618616418114497f4e4123745f0076\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\a28eaf199eb4938c45805e7a41c4726f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\a28eaf199eb4938c45805e7a41c4726f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:21:5-23:58
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\64a7a257a5b25ac52ba048887702639d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\64a7a257a5b25ac52ba048887702639d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ca01b11d67345f86c2b21fa47fea69db\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\ca01b11d67345f86c2b21fa47fea69db\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\f4302bf63ab0a6d6e2e8febe762e698d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.8.0.aar\f4302bf63ab0a6d6e2e8febe762e698d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\aa9117d88028e8ce367cbd72c924a21a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.8.0.aar\aa9117d88028e8ce367cbd72c924a21a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\0e79b9b5ccd1a5475c3b05e6094800b8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.8.0.aar\0e79b9b5ccd1a5475c3b05e6094800b8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\84898049ff8fca77681716a9189e9b3d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\84898049ff8fca77681716a9189e9b3d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\93a21c4b28c8eca448755e60d64a7ea4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\93a21c4b28c8eca448755e60d64a7ea4\AndroidManifest.xml:4:5-43
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+		ADDED from C:\TempDrone\Detector\AndroidManifest.xml
+		MERGED from C:\TempDrone\Detector\AndroidManifest.xml
+		INJECTED from C:\TempDrone\Detector\AndroidManifest.xml
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:32:13-70
+provider#com.squareup.leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:38:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:37:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:41:13-43:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:43:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:42:17-67
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:46:9-59:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:51:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:48:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:50:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:49:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:53:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:52:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:47:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:60:9-69:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:66:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:62:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:65:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:63:13-46
+	android:roundIcon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:67:13-57
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:64:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:69:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:68:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.6.1] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.6.1.aar\a14501c4458d07fc3d9345e734e94077\AndroidManifest.xml:61:13-93
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\4604c67bc07c7a58750c2622d66ffaee\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\ea223afc11933db5559d2d73d6b51415\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\1c2b6d25af36897356d1440109dbb37a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\df1f31d9d105f3bf49bd4df4a9e79e9c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\66051925f6a54f47c0cca04e34ebe694\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\8b4741302431d47271de05d7c9b50746\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\3a23d3bef0942e64523efd9a869233eb\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\4bfcb5275b53dfa425255246fe58f191\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\9a5fc979793efdaa5a48170d6d6e90b2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\c957243007d78a2c4d95b71e14b4beb3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\f4c06f5141771bcc05818b52da7c6050\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\0808711a8a61c83ded1615c9c2481d8f\AndroidManifest.xml:27:13-51
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:26:22-81
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:30:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:33:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:41:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:42:22-68
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:44:22-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:50:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:50:22-71
+receiver#dji.logic.receiver.DJIPilotStartupReceiver
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:65:9-72:20
+	android:exported
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:66:13-70
+intent-filter#action:name:dji.go3.STARTUP+action:name:dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:68:13-71:29
+action#dji.go3.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:69:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:69:25-55
+action#dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:70:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\5633c4177bd9fb25a950c6109281a0b9\AndroidManifest.xml:70:25-55
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.8.0.aar\82c37b617f458ec3627f0be292b6eea6\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\7fcce4d7616c4ff686c6cb5654d2dab5\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\marchanjo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\42f5d94d362750f15cb278ff073a1ab9\AndroidManifest.xml:24:13-58
